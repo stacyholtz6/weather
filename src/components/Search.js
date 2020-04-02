@@ -13,7 +13,7 @@ const Search = props => {
           type="text"
           name="searchTerm"
           id="searchTerm"
-          placeholder="Address or zip"
+          placeholder="Denver, CO"
           value={props.searchTerm}
           onChange={props.handleInputChange}
         />
