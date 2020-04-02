@@ -42,11 +42,14 @@ export const FormWrapper = styled(Form)`
     border-radius: 0.25rem 0 0 0.25rem;
     border-right-width: 0;
     width: 350px;
+    margin-bottom: 5px;
+    margin-top: 5px;
   }
   button {
     background: ${teal};
     border-radius: 0 0.25rem 0.25rem 0;
     font-weight: 700;
+    margin-bottom: 10px;
   }
 `;
 
@@ -81,6 +84,7 @@ export const DayWrapper = styled.section`
 export const DetailsWrapper = styled(Card)`
   border: ${tealOutline};
   padding: 1.5rem;
+  margin-bottom: 30px;
   text-align: center;
   h2 {
     font-weight: 700;
