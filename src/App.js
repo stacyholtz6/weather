@@ -4,6 +4,7 @@ import moment from 'moment';
 import Search from './components/Search';
 import DayCard from './components/DayCard';
 import DayDetails from './components/DayDetails';
+import { Wrapper } from './styles';
 import API from './utils/API';
 
 const App = () => {
@@ -61,6 +62,7 @@ const App = () => {
   };
 
   return (
+    <Wrapper>
     <Container>
       <Row>
         <Col md={8}>
@@ -111,6 +113,7 @@ const App = () => {
         </Col>
       </Row>
     </Container>
+    </Wrapper>
   );
 };
 
